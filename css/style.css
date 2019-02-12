@@ -1,0 +1,242 @@
+header{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    font-size: 15px;
+    color:red; 
+    line-height: 1.3em;
+    margin: 0 auto;
+}
+
+
+#characterSelectBox{ 
+    text-align: center; 
+    /* position: absolute; */
+}
+
+#characterSelectBox div{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#scorpion{
+    width: 271px;
+    height: auto;
+    text-align:center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#subZero{
+    width: 306px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+} 
+
+#liuKang{
+    width: 320px;
+    height: auto; 
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.menu{
+    background-image:url("../img/Menu.jpg");
+    background-size:cover; 
+}
+
+.fight{
+    background-image:url("../img/fight.png"); 
+    background-size: cover; 
+}
+
+.playerOneButtonBox{ 
+    margin: 0 auto;
+    display: inline-block; 
+    text-align: center; 
+    position: relative;
+    margin-left: 59vh;
+    line-height: 5em;
+}
+
+.playerTwoButtonBox{ 
+    text-align: center; 
+    margin-top: 20vh;
+    display: inline-block; 
+    position: relative;
+}
+
+#selectYourFighter{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+#playerOneKombat {
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#playerOneDefend{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#playerTwoKombat{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#playerTwoDefend{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#kombat{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+#textBox{
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+
+#playerOneAttack{
+    font-family: 'Rock Salt', cursive;
+    background-color: black; 
+    color: red;
+    font-size: 15px;
+}
+
+#playerOneBlock{
+    font-family: 'Rock Salt', cursive;
+    background-color: black; 
+    color: red;
+    font-size: 15px;
+}
+
+#playerTwoAttack{
+    font-family: 'Rock Salt', cursive;
+    background-color: black; 
+    color: red;
+    font-size: 15px;
+
+}
+
+#playerTwoBlock{
+    font-family: 'Rock Salt', cursive;
+    background-color: black; 
+    color: red;
+    font-size: 15px;
+}
+
+
+#playerOneWins{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#playerTwoWins{
+    text-align: center;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#battleBtn{
+    font-family: 'Rock Salt', cursive;
+    background-color:red;
+    color:black;
+    font-size: 15px;
+}
+
+#resetBtn{
+    font-family: 'Rock Salt', cursive;
+    background-color:red;
+    color:black;
+    font-size: 15px;
+}
+
+.Health{
+    vertical-align: top; 
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    position: absolute;
+}
+
+#myFighterSelect{
+    width: 21vw;
+    height: 45vh; 
+    display: left;
+    text-align: left;
+    border: 5px solid red; 
+    color:white;  
+    font-family: 'Rock Salt', cursive; 
+    font-size: 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#yourFighterSelect{
+    width: 21vw;
+    height: 45vh; 
+    display: left;
+    text-align: left;
+    border: 5px solid red; 
+    color:white;  
+    font-family: 'Rock Salt', cursive; 
+    font-size: 15px;
+    margin: 0 auto;
+    position: relative;   
+}
+
+#battleArena{
+    width: 90vw; 
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#fighterText{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 'Rock Salt', cursive; 
+    color: white;
+    font-size: 20px;
+    margin-top: 300px;
+}
