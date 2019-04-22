@@ -593,7 +593,7 @@ var initGame = function (){
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GAME STARTER FOR CLICK FUNCTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 document.addEventListener("DOMContentLoaded", function(){
-    console.log("DOM Loaded");
+    // console.log("DOM Loaded");
         var characters = document.getElementsByClassName("character")
             for (var character of characters){
                 character.addEventListener("click", selectCharacter)
