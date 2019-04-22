@@ -35,7 +35,7 @@ var characterSelected = [];
 
 
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~reset
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~reset~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 var lk = document.getElementById("liuKangFighterBox");
 
