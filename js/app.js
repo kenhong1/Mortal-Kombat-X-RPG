@@ -1,4 +1,4 @@
-console.log("hello"); 
+console.log("Welcome, Test Your Might Earthling"); 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Variables~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -573,7 +573,7 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BACKGROUND CHANGER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 var fightScene = function(){
 console.log("Prepare to Fight", fightScene);
-    document.body.classList.replace("menu","fight");
+    document.body.classList.replace("menu","Fight");
 };
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CLICK FUNCTION REMOVER AFTER CHARACTER SELECT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
