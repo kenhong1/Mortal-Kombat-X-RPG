@@ -573,7 +573,7 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BACKGROUND CHANGER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 var fightScene = function(){
 console.log("Prepare to Fight", fightScene);
-    document.body.classList.replace("menu","Fight");
+    document.body.classList.replace("menu","fight");
 };
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CLICK FUNCTION REMOVER AFTER CHARACTER SELECT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
