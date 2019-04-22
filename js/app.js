@@ -5,7 +5,7 @@ console.log("hello");
 var scorpionChosen = false; 
 var scorpionFight = null;
 var subZeroChosen = false;
-var subzeroFight = null;
+var subZeroFight = null;
 var liukangChosen = false;
 var liukangFight = null;
 
