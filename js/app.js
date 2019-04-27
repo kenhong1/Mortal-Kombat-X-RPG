@@ -513,18 +513,13 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
                 playerTwoPick = true; 
                     liukangFighterObj.player = 2;  
                         liuKangAudioPlay();
-
     }      
-    //     if (playerOnePick === true && playerTwoPick === true && liukangChosen=== false){
-    //                 document.getElementById("liuKangFighterBox").remove() 
-    //                 console.log("removed liuKang")
-    // };
-   
 });
 
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~subZero fighter selecter~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
     document.getElementById("subZeroFighterBox").addEventListener("click", function(){
         if(playerOnePick === false && subZeroChosen === false){
             playerOnePick = true;
@@ -540,10 +535,6 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
                             subZeroAudioPlay(); 
                 console.log("sub zero has been chosen")
         }  
-        //      if (playerOnePick === true && playerTwoPick === true && subZeroChosen === false){
-        //             document.getElementById("subZeroFighterBox").remove(); 
-        //                 console.log("removed subZero")
-        // };     
 });
 
 
@@ -562,10 +553,6 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
                                 scorpionAudioPlay();
             console.log("scorpion has been chosen")
             }
-            //     if (playerOnePick === true && playerTwoPick === true && scorpionChosen === false){
-            //             document.getElementById("scorpionFighterBox").remove() 
-            //             console.log("removed scorpion")
-            // };
 });
 
 
@@ -573,7 +560,7 @@ document.getElementById("liuKangFighterBox").addEventListener("click", function(
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BACKGROUND CHANGER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 var fightScene = function(){
 console.log("Prepare to Fight", fightScene);
-    document.body.classList.replace("menu","fight");
+    document.body.classList.replace("menu","Fight");
 };
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CLICK FUNCTION REMOVER AFTER CHARACTER SELECT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
